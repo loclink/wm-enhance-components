@@ -13,7 +13,7 @@ import EnhanceTable from '../EnhanceTable'
 import ProFormLimitInput from '../proFormLimitInput'
 // import { upload } from '../../utils'
 import { ActionType } from '@ant-design/pro-table'
-import { ActionsConfig, FormConfig } from '~/hooks/types'
+import { ActionsConfig, FormConfig } from '../../hooks/types'
 import ProFormInfo from '../proFormInfo'
 
 interface Props {

@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { useProTable } from '~/hooks/useProTable';
+import { useProTable } from '../../hooks/useProTable';
 import ProTable from '@ant-design/pro-table';
 import  { ActionsOptions } from './types';
 
