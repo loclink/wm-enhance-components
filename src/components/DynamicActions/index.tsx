@@ -1,14 +1,6 @@
-import {
-  ModalForm,
-  ProFormDigit,
-  ProFormField,
-  ProFormGroup,
-  ProFormSelect,
-  ProFormText,
-  ProFormUploadButton
-} from '@ant-design/pro-form'
-import { Button,  FormInstance, Modal, Table, message } from 'antd'
-import React, { memo,  useRef, useState } from 'react'
+import { ModalForm, ProFormDigit, ProFormField, ProFormGroup, ProFormSelect, ProFormText, ProFormUploadButton } from '@ant-design/pro-form'
+import { Button, FormInstance, Modal, Table, message } from 'antd'
+import React, { memo, useRef, useState } from 'react'
 import EnhanceTable from '../EnhanceTable'
 import ProFormLimitInput from '../proFormLimitInput'
 // import { upload } from '../../utils'
@@ -111,7 +103,7 @@ const DynamicActions: React.FC<Props> = memo((props) => {
         )
 
       case 'uploadButton':
-        return !isHide(formConfig) && <ProFormUploadButton {...formConfig} {...formConfig.uploadButtonOptions} />
+        return !isHide(formConfig) && <ProFormUploadButton {...formConfig} {...formConfig.uploadButtonOptions} fieldProps={{ beforeUpload: () => false }} />
 
       case 'digit':
         return (

@@ -1,8 +1,8 @@
 import { ProFormField } from '@ant-design/pro-form'
-import { concatRule } from '../../form-rules'
+import { concatRule } from '@wmeimob/form-rules'
 import { Input, InputProps } from 'antd'
 import { FC, memo, useMemo } from 'react'
-// import styles from './index.module.less'
+import styles from './index.module.less'
 import { ProFormItemProps } from '@ant-design/pro-form'
 
 export interface IProFormLimitInputProps extends ProFormItemProps<InputProps> {

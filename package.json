@@ -1,39 +1,29 @@
 {
   "name": "wm-enhance-components",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "src/index.ts",
   "installationPath": [
     "src"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
-    "@wmeimob/request": "^1.5.0",
-    "@wmeimob/aliyun": "^1.4.0",
-    "@ant-design/icons": "^4.7.0",
-    "@ant-design/pro-card": "^1.20.16",
-    "@ant-design/pro-descriptions": "^1.10.0",
-    "@ant-design/pro-form": "^1.52.0",
-    "@ant-design/pro-layout": "^6.32.0",
-    "@ant-design/pro-list": "^1.21.44",
-    "@ant-design/pro-provider": "^1.9.3",
-    "@ant-design/pro-table": "^2.61.0",
+    "@wmeimob/form-rules": "workspace:^1.2.0",
     "antd": "^4.17.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react": "^17.0.0"
   },
   "devDependencies": {
-    "rc-field-form": "1.27.1",
-    "@playwright/test": "^1.17.0",
     "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "eslint": "^8.12.0",
-    "eslint-config-react-app": "^7.0.0",
-    "typescript": "^4.5.0"
+    "@types/backend-extend-types": "workspace:^1.0.0"
+  },
+  "peerDependencies": {
+    "@ant-design/pro-form": "^1.52.0",
+    "@ant-design/pro-table": "^2.61.0"
   }
 }
