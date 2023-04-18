@@ -13,9 +13,8 @@
 // table.config.tsx
 import { api } from '~/request'
 import type { ProColumns } from '@ant-design/pro-table'
-import WmTableSwitch from '~/components/WmProDesign/TableSwitch'
-import { ActionsOptions, FormConfig } from 'wm-enhance-components'
-import { upload } from '../../../../components/aliyun'
+import { ActionsOptions, FormConfig, WmTableSwitch } from 'wm-enhance-components'
+import { upload } from '~/components/aliyun'
 const columns: ProColumns[] = [
   {
     title: '创建时间',
